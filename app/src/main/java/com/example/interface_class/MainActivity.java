@@ -1,6 +1,7 @@
 package com.example.interface_class;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+            Log.i("hello","this is git");
         String s1=new implement_in_class().provideName();
         ///interface_declare obj=new interface_declare();
         final implement_in_class boxer = new implement_in_class();
